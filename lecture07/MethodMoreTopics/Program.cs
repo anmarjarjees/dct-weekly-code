@@ -3,8 +3,13 @@ namespace MethodMoreTopics
 {
     internal class Program
     {
-        // Method => a function inside a class
-        // function => a block of code that makes action
+        /* 
+        Working with Methods:
+        *********************
+        - Method => A function that belongs to a class in C#
+        - Function => A general programming term for a block of reusable code
+        functions do actions :-)
+       */
 
         // Main() Method => given to us by C# Compiler
         // static void Main(string[] args)
@@ -34,7 +39,7 @@ namespace MethodMoreTopics
          * Problem:
          * Average for 2 numeric values:
          * 2 exams midterm and final
-         * this methods needs 3 numeric variables! 
+         * this methods needs 2 numeric variables! 
          * 
          * In methods => the passing variables => parameters
          * this method accepts two parameters (are just variable):
@@ -49,7 +54,7 @@ namespace MethodMoreTopics
         // This method can be used for our two assignments: midterm and final
         public static double GetAverage(double num1, double num2)
         {
-            Console.WriteLine((num1 + num2) / 2);
+            // Console.WriteLine((num1 + num2) / 2);
             return (num1 + num2) / 2;
         } // end GetAverage()
 
